@@ -1,0 +1,42 @@
+.container {
+    background-color: yellow;
+    padding: 10px;
+    margin-bottom: 20px;
+   
+    display: grid;
+   
+   grid-template-columns:  repeat(3, 1fr 3fr);
+grid-template-rows:100px repeat(2, 2fr) 100px;
+  
+}
+
+.item {
+   border: 1px solid black;
+}
+
+.item-01 {
+   background-color: rgb(255, 0, 200);
+  
+}
+
+.item-02 {
+    background-color: aqua; 
+ }
+ 
+.item-03 {
+    background-color: rgb(255, 0, 212); 
+ }
+ 
+.item-04 {
+    background-color: rgb(0, 255, 42); 
+ }
+ 
+.item-05 {
+    background-color: rgb(255, 94, 0); 
+ }
+ 
+.item-06 {
+    background-color: rgb(196, 226, 141); 
+ }
+
+ 
